@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 20px;
+background: url('background.png')  no-repeat center center/cover;">
+
+    <form action="form.html" method="post"  style="max-width: 400px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h1 style="text-align: center; color: #333; margin-bottom: 10px;">Innovative Learnings Signup</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 20px;">Path for your new beginnings</p>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">What are you waiting for? Hurry up!!!</p>
+
+        <input type="text" name="Username" placeholder="Enter your name" pattern="[a-zA-Z0-9 ]+" required
+               style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+        
+        <input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9]+@[a-z]+\.[a-z]{2,4}" required
+               style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+        
+        <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" required
+               style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+        
+        <input type="password" name="password" placeholder="Referral code" pattern=".{6,}" title="Password must be at least 6 characters long" required
+               style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+        
+        <input type="submit" value="Sign Up" 
+               style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">
+        <br>
+        <br>
+        
+        <p style="text-align: center; color: #555;">Ushhh!!!! Already have an account? <a href="form.html" style="color: #007BFF; text-decoration: none;">Login</a></p>
+    </form>
+
+</body>
+</html>
